@@ -47,12 +47,11 @@
         </ul>
     </div>
 </header>
-
     <main>
         <!--Герой-->
         <section class="hero">
             <h1>Эффективные решения<br> для вашего бизнеса</h1>
-            <div><button>Заказать услугу</button></div>
+            <div><button data-modal-open>Заказать услугу</button></div>
         </section>
         <!--Особенности-->
         <section class="specials">
@@ -307,5 +306,13 @@
         </div>
     </div>
 </footer>
+<div class="backdrop is-hidden" data-modal>
+    <div class="data-modal">
+        <button class="data-modal-close" data-modal-close>
+            <img src="./img/close-black.svg" alt="Закрыть окно">
+        </button>
+    </div>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
